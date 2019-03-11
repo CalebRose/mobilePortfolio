@@ -1,0 +1,239 @@
+html {
+  overflow-y: scroll;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/qbkls.png");
+}
+
+p,
+a,
+form,
+input,
+textarea {
+  color: #777777;
+  font-family: "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+p {
+  padding-bottom: 10px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Georgia", "Times", "Times New Roman", serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 24px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+#navbar {
+  background-color: #ffffff;
+  position: relative;
+  width: auto;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #cccccc;
+}
+
+.navWrap {
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.myName {
+  background-color: #4aaaa5;
+  margin: 0 auto;
+  display: inline-block;
+  padding: 18px;
+  padding-bottom: 23px;
+}
+
+.myName a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: "Georgia", "Times", "Times New Roman", serif;
+  font-weight: bold;
+}
+
+.menu {
+  /* width: 95%; */
+  display: inline-block;
+}
+
+.menu ul {
+  list-style: none;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  position: relative;
+  display: flex;
+  left: 37em;
+}
+
+.menu ul li {
+  display: inline;
+  /*padding: 16px 10px;*/
+  padding-right: 8px;
+  padding-left: 8px;
+  border-right: 1px solid #8f8f8f;
+}
+
+.menu ul li:last-of-type {
+  border-right: none;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: grey;
+  top: 0;
+}
+
+#contentWrapper {
+  clear: both;
+  background-color: grey;
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  flex-basis: auto;
+  overflow: auto;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #dddddd;
+}
+
+#content {
+  background-color: #ffffff;
+  position: relative;
+  max-width: 940px;
+  padding: 25px;
+  line-height: 30px;
+  display: block;
+  zoom: 1;
+}
+
+#content h1 {
+  color: #4aaaa5;
+}
+
+#content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+hr {
+  color: #dddddd;
+}
+
+#headshot {
+  width: 20%;
+  float: left;
+  position: relative;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+
+#contact {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+input {
+  height: 30px;
+  padding-left: 5px;
+  margin-bottom: 20px;
+}
+
+input,
+textarea {
+  width: 100%;
+}
+
+textarea {
+  height: 100px;
+}
+
+button {
+  background-color: #4aaaa5;
+  /* Green */
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.project {
+  float: left;
+  position: relative;
+  overflow: auto;
+  width: 270px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+#trivia,
+#rps {
+  clear: both;
+}
+
+.project img {
+  width: 100%;
+  border: 0;
+  opacity: 0.7;
+  height: 50%;
+}
+
+.project h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
+
+.mainFooter {
+  position: fixed;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+  display: block;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #666666;
+  padding: 1rem;
+  border-top: 8px solid #4aaaa5;
+  /*padding: 0 0 20px; */
+  /*padding-top: 10px; */
+}
+
+footer small {
+  color: white;
+}
